@@ -42,11 +42,11 @@ const Contact = () => {
         <div className="format-contact">
         <img className="contact-image" src="/contact1.png" alt="contact-image"/>
         <div className="contact-content">
-        <p>Satendra Kumar</p>
-        <p>Software Developer.</p>
-        <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-      <p>Phone: +91 7068130564</p>
-      <p>Email: satendra.kumar.iiitbhopal@gmail.com</p>
+        <p className="contact-content-p">Satendra Kumar</p>
+        <p className="contact-content-p">Software Developer</p>
+        <p className="contact-content-p">I am available for freelance work. Connect with me via and call in to my account.</p>
+      <p className="contact-content-p">Phone: +91 7068130564</p>
+      <p className="contact-content-p">Email: satendra.kumar.iiitbhopal@gmail.com</p>
        <div className="find-with-me">
                   
                   <div className="">

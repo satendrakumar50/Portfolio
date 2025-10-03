@@ -154,6 +154,7 @@ body {
 }
 
 /* Home Text */
+
 .home-text {
   display: flex;
   flex-direction: column;
@@ -161,11 +162,17 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
 }
 
-.home-text p {
-  font-size: 20px;
-  max-width: 600px;
+.home-text-span {
+  /* font-size: 20px; */
+   text-decoration: none;
+    /* display: block; */
+    padding-left: 20px;
+  text-align: left;
+  font-weight: 500;
+ 
 }
 
 .highlight {
@@ -384,17 +391,42 @@ body {
 .btn {
   height: 50px;
   margin: 5px;
-  width: 210px;
+  /* max-width: 0px; */
+  padding: 5px;
+  font-size: small;
   border: none;
   border-radius: 5px;
   background: rgb(236, 240, 243);
   color: black;
-  font-size: 16px;
+
   transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 1px 1px rgba(0.1, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.active {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  height: 60px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 210px;
+  padding: 5px;
+}
+
+@media(width:480 ){
+  .btn{
+    display: flex;
+    flex-direction: column;
+  }
+   .active{
+    display: flex;
+    flex-direction: column;
+  }
 }
 .btn:hover {
   height: 60px;
@@ -405,15 +437,6 @@ body {
   font-weight: 600;
   
   /* background-color: red; */
-}
-.active {
-  background-color: red;
-  color: white;
-  font-weight: 600;
-  height: 60px;
-  border-radius: 5px;
-  margin: 5px;
-  width: 210px;
 }
 .resume-contain-content {
   min-height: 100vh;       /* let content grow vertically */
@@ -449,6 +472,7 @@ body {
   width: 100%;
  
 }
+
 
 .box {
   flex: 1;                           /* flexible width */
@@ -547,6 +571,8 @@ justify-content: center;
   background: linear-gradient(to right, #ffdde1, #ff4b5c); /* gradient like SS */
   transition: width 0.6s ease-in-out;
 }
+
+
 .About-me {
   display: flex;
   justify-content: center;
@@ -710,11 +736,11 @@ justify-content: center;
 
 .contact-image {
   width: 100%;
-  max-width: 500px;   /* keeps image from being too large */
+  max-width: 500px;   
   height: auto;
   border-radius: 10px;
   object-fit: cover;
-  background-color: aquamarine;
+
 }
 
 /* Left section (image + content card) */
@@ -752,21 +778,27 @@ justify-content: center;
 
 
 .contact-content {
-  display: flex;
-  justify-content: start;
+  /* display: flex;
+  justify-content: start; */
   flex-direction: column;
-  align-items: start;
+  align-items: left;
   margin-top: 15px; 
-  padding-left: 90px;
-  text-align: center;
+  padding-left: 10px;
+  
+ /* border: 1px solid black; */
+  text-align: left;
 }
 
-.contact-content p {
+.contact-content-p {
   margin: 6px 0;
   font-size: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   color: #444;
+  padding-right: 20px;
+  /* border: 1px solid black; */
+
+ 
 }
 
 /* ✅ Responsive design */
@@ -803,19 +835,20 @@ justify-content: center;
   width: 100%;
   border-radius: 10px;
    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-   padding-top: 30px;
+   /* padding-top: 30px; */
 }
 .heading-contact{
  
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: xxx-large;
 }
 
 
 .contact-form {
-  /* border: 5px solid black; */
+  /*  */
   display: grid;
   /* grid-template-columns: 1fr 1fr;  */
   gap: 8px;
@@ -898,9 +931,13 @@ justify-content: center;
 }
 
 /* ✅ Responsive Design */
-@media (max-width: 200px) {
+@media (width: 480px) {
   .contact-form {
-    grid-template-columns: 1fr; /* stack everything vertically */
+    grid-template-columns: 1fr; 
+  }
+  .format-contact{
+
+  font-size: xxx-large;
   }
 
   #user_name,

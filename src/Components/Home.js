@@ -8,7 +8,7 @@ import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaNode } from "react-icons/fa";
 export const Home = () => {
   return (
-    <section id="home" style={{marginTop:"30px"}} >
+    <section id="home" style={{marginTop:"40px"}} >
     <div className="home">
       {/* Intro Section */}
       <div className="container a">
@@ -21,12 +21,12 @@ export const Home = () => {
             </span>{" "}
             <br /> <span className="highlight">a</span> Full Stack Developer.
           </h1>
-          <p>
+          <span className="home-text-span ">
          I graduated with a B.Tech in Information Technology from IIIT Bhopal.
-          I am passionate about exploring new technologies that challenge my technical and analytical skills
-           while helping me expand my knowledge. My interests include coding, technology, and development, 
+         I am passionate about exploring new technologies that challenge my technical and analytical skills
+         while helping me expand my knowledge. My interests include coding, technology, and development, 
          and I am dedicated to continuous learning and improvement.
-          </p>
+          </span>
         </div>
       </div>
 

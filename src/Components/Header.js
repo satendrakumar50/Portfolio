@@ -31,7 +31,7 @@ const Header = () => {
       </div>
 
       {/* Hamburger Icon (Mobile only) */}
-      <div className="hamburger" onClick={() => setIsOpen(true)}>
+      <div  className="hamburger" onClick={() => setIsOpen(true)} >
         ☰
       </div>
 
@@ -63,19 +63,19 @@ const Header = () => {
         >
           Contact
         </Link> */}
-        <HashLink smooth to="/#home" className="headerp">
+        <HashLink smooth to="/#home" className="headerp"  onClick={() => setIsOpen(false)}>
           Home
         </HashLink>
-        <HashLink smooth to="/#portfolio" className="headerp">
+        <HashLink smooth to="/#portfolio" className="headerp" onClick={() => setIsOpen(false)}>
           Portfolio
         </HashLink>
-        <HashLink smooth to="/#resume" className="headerp">
+        <HashLink smooth to="/#resume" className="headerp" onClick={() => setIsOpen(false)}>
           Resume
         </HashLink>
-        <HashLink smooth to="/#contact" className="headerp">
+        <HashLink smooth to="/#contact" className="headerp" onClick={() => setIsOpen(false)}>
           Contact
         </HashLink>
-        <HashLink smooth to="/#about" className="headerp">
+        <HashLink smooth to="/#about" className="headerp" onClick={() => setIsOpen(false)}>
           About Me
         </HashLink>
       </div>

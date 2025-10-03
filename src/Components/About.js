@@ -7,7 +7,7 @@ const About = () => {
     
     >
       <div className="About-me">
-       
+        <h1>About Me</h1>
         <p>
           I am a dedicated and results-driven software developer with a strong
           foundation in computer science and a passion for creating efficient

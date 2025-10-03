@@ -574,11 +574,14 @@ justify-content: center;
 
 
 .About-me {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 900px; 
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  padding: 15px;
+  margin: 15px;
   
           
   padding: 40px 30px;
@@ -593,18 +596,18 @@ justify-content: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.About-me:hover {
+/* .About-me:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Optional: style inner <p> */
-.About-me p {
+/* .About-me p {
   margin-bottom: 1.5rem;
-}
+} */
 
 /* Add a section title look */
-.About-me::before {
+/* .About-me::before {
   content: "About Me";
   display: block;
   font-size: 2rem;
@@ -613,7 +616,7 @@ justify-content: center;
   margin-bottom: 20px;
   text-align: center;
   letter-spacing: 1px;
-}
+} */
 
 /* Responsive tweaks */
 @media (max-width: 768px) {

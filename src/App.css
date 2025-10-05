@@ -388,10 +388,32 @@ body {
   /* flex-direction: row; */
   justify-content: space-between;
 }
-.btn {
-  height: 50px;
-  margin: 5px;
+.view-resume{
+   margin: 5px;
+   height: 40px;
+    width: 100px;
   /* max-width: 0px; */
+    font-weight: 450;
+  padding: 5px;
+  font-size: small;
+  border: none;
+  border-radius: 5px;
+  background: rgb(236, 240, 243);
+  color: black;
+
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 1px 1px 1px rgba(0.1, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  /* height: 50px; */
+  margin: 5px;
+   height: 40px;
+    width: 100px;
+  /* max-width: 0px; */
+    font-weight: 50;
   padding: 5px;
   font-size: small;
   border: none;
@@ -410,11 +432,11 @@ body {
 .active {
   background-color: red;
   color: white;
-  font-weight: 600;
-  height: 60px;
+  font-weight: 50;
+  height: 40px;
   border-radius: 5px;
   margin: 5px;
-  width: 210px;
+  width: 100px;
   padding: 5px;
 }
 
@@ -422,10 +444,14 @@ body {
   .btn{
     display: flex;
     flex-direction: column;
+    max-height: 40px;
+      max-width: 100px;
   }
    .active{
     display: flex;
     flex-direction: column;
+     max-height: 40px;
+      max-width: 100px;
   }
 }
 .btn:hover {
@@ -574,16 +600,11 @@ justify-content: center;
 
 
 .About-me {
-  margin-top: 80px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-  padding: 15px;
-  margin: 15px;
-  
-          
   padding: 40px 30px;
   background: #e9ecf4;          /* clean card style */
   border-radius: 16px;          /* rounded corners */
@@ -596,18 +617,18 @@ justify-content: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* .About-me:hover {
+.About-me:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-} */
+}
 
-/* Optional: style inner <p> */
-/* .About-me p {
+.About-me p {
   margin-bottom: 1.5rem;
-} */
+   text-align: left;
+   padding-left: 10px;
+}
 
-/* Add a section title look */
-/* .About-me::before {
+.About-me::before {
   content: "About Me";
   display: block;
   font-size: 2rem;
@@ -616,9 +637,8 @@ justify-content: center;
   margin-bottom: 20px;
   text-align: center;
   letter-spacing: 1px;
-} */
+}
 
-/* Responsive tweaks */
 @media (max-width: 768px) {
   .About-me {
     margin: 60px 20px;

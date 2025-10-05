@@ -4,6 +4,7 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Resume from './Resume'
 import Contact from './Contact'
+import Footer from './Footer'
 
 // const Body = () => {
 //   return (
@@ -41,6 +42,7 @@ const Body = () => {
               <Resume />
               <Contact />
               <About />
+               <Footer />
             </>
           }
         />

@@ -42,16 +42,14 @@ const Resume = () => {
           </button>
         ))}
      {/* <button className="btn"> */}
-  <a className="btn" href="https://drive.google.com/file/d/1MdbpzpGL9OcmxbuN0N4axPfhgMf-6fBw/view?usp=drive_link"
-   target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+  <a  className="view-resume" href="https://drive.google.com/file/d/1ZX2Sa32NjObn_44hetXBnYSjg7uL7Wr3/view?usp=drive_link"
+   target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", fontWeight: "450" }}>
     View Resume
   </a>
-{/* </button> */}
 
-{/* <button className='btn'> */}
-  <a className='btn' href="/resume.pdf" download="Satendra_Resume.pdf" style={{ textDecoration: "none"}}>
+  {/* <a className='btn' href="/resume.pdf" download="Satendra_Resume.pdf" style={{ textDecoration: "none"}}>
   Download CV
-  </a>
+  </a> */}
 {/* </button> */}
 
 

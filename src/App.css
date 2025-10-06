@@ -654,10 +654,11 @@ justify-content: center;
 
 /* Section Styling */
 .portfolio-section {
-  padding: 3rem 1.5rem;
+  /* padding: 3rem 1.5rem; */
+  padding: 2rem;
   background: #8d2727;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
    background-color:  rgb(236, 240, 243);
 }
 
@@ -937,7 +938,7 @@ justify-content: center;
 /* Submit button */
 .contact-form button {
   grid-column: span 2;
-  padding: 14px;
+  /* padding: 14px; */
   border: none;
   border-radius: 8px;
   background: #4a90e2;
@@ -947,6 +948,7 @@ justify-content: center;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
+
 
 .contact-form button:hover {
   background: #357abd;
@@ -958,6 +960,7 @@ justify-content: center;
   .contact-form {
     grid-template-columns: 1fr; 
   }
+  
   .format-contact{
 
   font-size: xxx-large;

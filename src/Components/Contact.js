@@ -68,7 +68,7 @@ const Contact = () => {
 
  < div className="contactb">
       <form ref={form} onSubmit={sendEmail} className="contact-form">
-      
+          <div className="name-phone" style={{ paddingTop:"15px"}}>
         <label htmlFor="user_name">Your Name</label>
         <input type="text" id="user_name" name="user_name" required />
 
@@ -85,8 +85,9 @@ const Contact = () => {
         <label htmlFor="message">Your Message</label>
         {/* Changed name from 'message' to 'message' (already good) */}
         <textarea id="message" name="message" rows="5" required />
-
-        <button type="submit">Send Message</button>
+</div>
+        <button style={{height:"50px"}} type="submit">Send Message</button>
+        
       </form>
     </div>
 

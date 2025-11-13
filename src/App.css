@@ -536,6 +536,9 @@ body {
   font-weight: 500;
   color: #444;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #357abd; */
 }
 
 .education-details {

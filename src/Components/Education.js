@@ -13,7 +13,7 @@ export const Education = () => {
             B.Tech in Information Technology
             <span className="education-duration"> | June 2019 – June 2023</span>
           </p>
-          <p className="education-cgpa">CGPA: 9.1</p>
+          <p className="education-cgpa">CGPA: 8.1</p>
           <ul className="education-details">
             <li>Relevant Coursework: Data Structures, Algorithms, DBMS</li>
             <li>Achievements: Secured 6 rank in may long coding challeng</li>
@@ -33,14 +33,14 @@ export const Education = () => {
                 (CCS Dildarnagar, Uttar Pradesh)
               </span>
             </h3>
-            <p className="education-degree">
+            <span className="education-degree" style={{ margin: "0", padding: "0"}}>
               High School (10th Grade)
               <span className="education-duration">
                 {" "}
                 | July 2014 – July 2015
               </span>
-            </p>
-            <p className="education-cgpa">CGPA: 7.2</p>
+            </span>
+            <div className="education-cgpa" style={{display:"flex", flexDirection: "column", paddingTop:"3px"}}>CGPA: 7.2</div>
             <ul className="education-details">
               <li>
                 Relevant Coursework: Maths, Science, Moral Science, Hindi,
